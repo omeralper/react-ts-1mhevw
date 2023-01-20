@@ -1,0 +1,51 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.Tabs {
+}
+
+.tabTitles {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  padding-left: 20px;
+}
+
+.tabTitle {
+  color: #555555;
+  background-color: #fff;
+  margin-right: 2px;
+  padding: 10px 15px;
+  border: 1px solid transparent;
+}
+
+.tabTitle a {
+  text-decoration: none;
+}
+
+.tabTitle.isActive:hover {
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  cursor: default;
+}
+
+.tabTitle:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.tabTitle.isActive {
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+  margin-bottom: -1px;
+  border-top-right-radius: 4px !important;
+  border-top-left-radius: 4px !important;
+}
+
+.tabContent {
+  padding-top: 20px;
+}
+.tabContent.hide {
+  display: none;
+}
